@@ -1,0 +1,50 @@
+LINHA DE COMANDO
+
+git init: Inicializa um novo repositório Git na pasta atual.
+
+git clone [URL]: Clona um repositório Git existente para sua máquina local.
+
+git add [arquivo]: Adiciona alterações de um arquivo à área de preparação (staging).
+
+git commit -m "mensagem": Registra as alterações adicionadas na área de preparação com uma mensagem de commit.
+
+git status: Mostra o estado atual do repositório, incluindo os arquivos modificados, na área de preparação e não rastreados.
+
+git log: Exibe o histórico de commits do repositório.
+
+git branch: Lista todas as ramificações locais do repositório.
+
+git checkout [ramificação]: Muda para uma ramificação específica.
+
+git merge [ramificação]: Incorpora as alterações de uma ramificação em outra.
+
+git pull: Atualiza o repositório local com as alterações do repositório remoto.
+
+git push: Envia os commits locais para o repositório remoto.
+
+git remote -v: Exibe os repositórios remotos configurados.
+
+git fetch: Obtém as atualizações do repositório remoto, mas não faz mesclagem automática.
+
+git reset [arquivo]: Remove um arquivo da área de preparação, mantendo as alterações no diretório de trabalho.
+
+git diff: Mostra as diferenças entre o diretório de trabalho e a área de preparação.
+
+git rm [arquivo]: Remove um arquivo do repositório e da área de preparação.
+
+git stash: Guarda temporariamente as alterações não comprometidas para que você possa alternar de ramificação.
+
+git tag [nome]: Cria uma tag para marcar um commit específico.
+
+git remote add [nome] [URL]: Adiciona um repositório remoto com um nome personalizado.
+
+git checkout -b [nome]: Cria uma nova ramificação e muda para ela em um único comando.
+
+Esses são alguns dos comandos Git mais comuns e úteis. Eles são essenciais para gerenciar e controlar seu repositório Git de forma eficaz.
+
+
+
+
+
+
+
