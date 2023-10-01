@@ -1,5 +1,7 @@
 LINHA DE COMANDO
 
+-git ls-files: lista os arquivos dentro da pasta git
+
 -git init :
 Inicializa um novo repositório Git na pasta atual.
 
