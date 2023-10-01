@@ -7,7 +7,6 @@ Atributos:
 -date 
 
 Inicial:
-
 -CREATE TABLE nome - criar o banco de dados;
 -use banco - acessar ao banco;
 -create table nome_tabela (id integer AUTO_INCREMENT primary key, data_fabricacao date, .....n);
