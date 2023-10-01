@@ -1,0 +1,40 @@
+Atributos:
+
+-integer
+-decimal (10,2)
+-varchar (255)
+-text
+-date 
+
+Inicial:
+
+-CREATE TABLE nome - criar o banco de dados;
+-use banco - acessar ao banco;
+-create table nome_tabela (id integer AUTO_INCREMENT primary key, data_fabricacao date, .....n);
+-drop table nome_tabela - excluir tabela
+-drop database nome_banco - excluir o banco
+-truncate nome_tabela - apaga todos os registros
+-alter table nome_tabela: - add column nome_coluna tipo;
+		          - change nome_colum O_QUE_QUER_MUDAR; 
+-(alter table livros change anopub anopub integer); mudei o atributo anopub que era varchar para inteiro.
+
+
+
+Rotinas:
+
+-select - selecionar os dados de um banco (select * from NOME_TABELA);
+-update - atualizar dados de um registro (update NOME_TABELA set NOME_COLUNA = algo where id = x); SEMPRE PASSAR O ID PARA NAO ALTERAR TODOS
+-------------------------------------------------------------
+- UPDATE livros SET titulo = (case when id = 1 then 'Livro 1' when id=2 then 'Livro2' else titulo end);
+alterar vários campos de vários id diferentes;
+-------------------------------------------------------------
+-delete - deletar registro de um banco (delete from NOME_TABELA where id = x);
+-insert - inserir registro no banco (insert into NOME_TABELA (campos) values (valores));
+
+PARA INSERIR DATA LEMBRAR DE COLOCAR NO PADRAO AMERICANO: EX.: '2023-09-06'
+
+Relatório (consultas avançadas):
+
+- LIKE - quando queremos selecionar algo na tabela com nome aproximado. (select * from NOME_TABELA where CAMPO like '%algo%');
+- COUNT - contar os registros de uma tabela. (select count(*) as APELIDO from NOME_TABELA)
+- BETWEEN - selecionar campos na tabela em um intervalo de valores ou data. (select * from NOME_TABELA where campo between VALOR_INICIAL and VALOR_FINAL);
